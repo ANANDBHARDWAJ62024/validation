@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user validation</title>
+</head>
+<body>
+    Name: <input id="firstName" type="text">
+    <span id="error1"></span><br>
+   Email: <input type="email" id="email" placeholder="Enter Email" >
+   <span id="error2"></span>
+   <br>
+   website: <input type="url" name="url" id="url"
+   placeholder="https://example.com"
+   pattern="https://.*" size="30"
+   required>
+   <span id="error3"></span><br>
+   Image link: <input type="url" name="" value="https://"><br>
+   
+   Gender: <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <br>
+    skills: <input type="checkbox" name="skill" 
+    value="Java">Java<br>
+  
+<input type="checkbox" name="skill" 
+    value="HTML">HTML<br>
+
+<input type="checkbox" name="skill" 
+    value="CSS">CSS<br>
+
+    <button id="submitButton" type="submit">submit</button>
+    <!-- <button id="submitButton" type="submit">clear</button> -->
+    <p id='result1'></p>
+    <p id='result2'></p>
+    <p id='result3'></p>
+    <p id='result4'></p>
+    <p id='result5'></p>
+
+
+
+   <script src="Name.js"></script>
+   <script src="email.js"></script>
+   <script src="website.js"></script>
+   <script src="radio.js"></script>
+   <script src="checkbox.js"></script>
+</body>
+</html>
